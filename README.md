@@ -1,6 +1,5 @@
 # ExaminatorVAD
 
-Прототип компонента, устанавливающего метки начала и конца ответа в аудио-волне
+The prototype of the component that sets the start and end marks of the response in the audio wave
 
-Основной метод: [iStart iEnd] = analyseAudio(audioFilePath, 10). 
-Метод принимает путь до файла и размер фрейма. Возвращает номер первого сэмпла первого активного фрейма — начало голосовой активности, и номер последнего сэмпла последнего активного фрейма — конец голосовой активности.
+Main method: [iStart iEnd] = analyzeAudio(audioFilePath, 10). The method accepts the path to the file and the size of the frame. Returns the number of the first sample of the first active frame - the beginning of the voice activity, and the number of the last sample of the last active frame - the end of the voice activity.
